@@ -75,6 +75,7 @@
             float: left;
             width: 20%;
             padding-top: 5px;
+            position: relative;
             a{
                 border: 0px solid #ddd!important;
                 font-size: 10px;
@@ -85,8 +86,24 @@
                         width: 35px;
                     }
                 }
-
             }
+        }
+        .tag{
+            width: 13px;
+            height: 13px;
+            background-size: 13px 13px;
+            position: absolute;
+            right: 12px;
+            top: 6px;
+        }
+        .tag_fast{
+            background-image: url("../images/fast.png");
+        }
+        .tag_safe{
+            background-image: url("../images/safe.png");
+        }
+        .tag_win{
+            background-image: url("../images/win.png");
         }
         .payicon{
             img{

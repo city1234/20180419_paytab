@@ -185,22 +185,44 @@ left: calc(50% - 82.5px);
   float: left;
   width: 20%;
   padding-top: 5px;
+  position: relative;
 }
-/* line 78, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 .onlineMenu ul li a {
   border: 0px solid #ddd !important;
   font-size: 10px;
 }
-/* line 81, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .onlineMenu ul li a .payicon {
   padding: 5px 0;
   text-align: center;
 }
-/* line 84, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .onlineMenu ul li a .payicon img {
   width: 35px;
 }
-/* line 92, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
+.onlineMenu ul .tag {
+  width: 13px;
+  height: 13px;
+  background-size: 13px 13px;
+  position: absolute;
+  right: 12px;
+  top: 6px;
+}
+/* line 99, ../sass/screen.scss */
+.onlineMenu ul .tag_fast {
+  background-image: url("../images/fast.png");
+}
+/* line 102, ../sass/screen.scss */
+.onlineMenu ul .tag_safe {
+  background-image: url("../images/safe.png");
+}
+/* line 105, ../sass/screen.scss */
+.onlineMenu ul .tag_win {
+  background-image: url("../images/win.png");
+}
+/* line 109, ../sass/screen.scss */
 .onlineMenu ul .payicon img {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -208,7 +230,7 @@ left: calc(50% - 82.5px);
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 99, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 .onlineMenu ul .pay_add_active .payicon img {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -217,31 +239,31 @@ left: calc(50% - 82.5px);
   transform: rotate(180deg);
 }
 
-/* line 107, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 .PaleOrange {
   padding-left: 102px !important;
 }
 
-/* line 111, ../sass/screen.scss */
+/* line 128, ../sass/screen.scss */
 .item-input .itemTxt {
   margin-right: 10px;
 }
 
-/* line 114, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 .paytxt {
   font-size: 12px !important;
 }
 
-/* line 117, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 select {
   font-family: "Microsoft Yahei" !important;
 }
 
-/* line 121, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
 .bankCard .active {
   position: relative;
 }
-/* line 123, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 .bankCard .active:after {
   content: "";
   position: absolute;
@@ -253,18 +275,18 @@ select {
   background-size: 20px 20px;
 }
 
-/* line 135, ../sass/screen.scss */
+/* line 152, ../sass/screen.scss */
 .paybankName {
   float: none !important;
   padding: 25px;
 }
 
-/* line 139, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 .moneybox {
   overflow: hidden;
   margin-top: 8px;
 }
-/* line 142, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 .moneybox li {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -286,7 +308,7 @@ select {
   color: #999999;
   line-height: 30px;
 }
-/* line 155, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 .moneybox .moneybox_active {
   color: #fff;
   background: #fdb064;
