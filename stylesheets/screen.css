@@ -224,7 +224,7 @@ left: calc(50% - 82.5px);
 
 /* line 113, ../sass/screen.scss */
 .paytxt {
-  font-size: 10px;
+  font-size: 12px !important;
 }
 
 /* line 116, ../sass/screen.scss */
