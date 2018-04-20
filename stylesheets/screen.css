@@ -207,31 +207,31 @@ left: calc(50% - 82.5px);
   transform: rotate(180deg);
 }
 
-/* line 104, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 .PaleOrange {
   padding-left: 102px !important;
 }
 
-/* line 108, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 .item-input .itemTxt {
   margin-right: 10px;
 }
 
-/* line 111, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 .paytxt {
   font-size: 10px;
 }
 
-/* line 114, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 select {
   font-family: "Microsoft Yahei" !important;
 }
 
-/* line 118, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 .bankCard .active {
   position: relative;
 }
-/* line 120, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 .bankCard .active:after {
   content: "";
   position: absolute;
@@ -241,4 +241,10 @@ select {
   top: 0;
   background-image: url(../images/check.png);
   background-size: 20px 20px;
+}
+
+/* line 133, ../sass/screen.scss */
+.paybankName {
+  float: none !important;
+  padding: 25px;
 }
