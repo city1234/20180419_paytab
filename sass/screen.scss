@@ -27,6 +27,7 @@
     @include css3(box-shadow,0px 0px 4px #d3d3d3);
     button{
         margin: 0 auto;
+        @include css3(box-shadow,0px 0px 0px #d3d3d3);
     }
 }
 .yo-headline2{
