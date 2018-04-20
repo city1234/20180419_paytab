@@ -253,3 +253,36 @@ select {
   float: none !important;
   padding: 25px;
 }
+
+/* line 138, ../sass/screen.scss */
+.moneybox {
+  overflow: hidden;
+  margin-top: 8px;
+}
+/* line 141, ../sass/screen.scss */
+.moneybox li {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  list-style: none;
+  float: left;
+  width: calc(20% - 16px);
+  background: #fff;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0 8px;
+  height: 30px;
+  color: #999999;
+  line-height: 30px;
+}
+/* line 154, ../sass/screen.scss */
+.moneybox .moneybox_active {
+  color: #fff;
+  background: #fdb064;
+}

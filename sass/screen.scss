@@ -135,3 +135,24 @@ select{
     float: none!important;
     padding: 25px;
 }
+.moneybox{
+    overflow: hidden;
+    margin-top: 8px;
+    li{
+        @include css3(transition,all .3s ease);
+        list-style: none;
+        float: left;
+        width: calc(20% - 16px);
+        background: #fff;
+        text-align: center;
+        @include css3(border-radius,5px);
+        margin: 0 8px;
+        height: 30px;
+        color: #999999;
+        line-height: 30px;
+    }
+    .moneybox_active{
+        color: #fff;
+        background: #fdb064;
+    }
+}
