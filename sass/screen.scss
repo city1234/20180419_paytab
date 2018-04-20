@@ -23,7 +23,8 @@
     width: 100%;
     position: fixed;
     bottom: 0;
-    background: #ececec;
+    background: #fff;
+    @include css3(box-shadow,0px 0px 4px #d3d3d3);
     button{
         margin: 0 auto;
     }

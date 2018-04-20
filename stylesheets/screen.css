@@ -98,23 +98,28 @@ left: calc(50% - 82.5px);
   width: 100%;
   position: fixed;
   bottom: 0;
-  background: #ececec;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 4px #d3d3d3;
+  -moz-box-shadow: 0px 0px 4px #d3d3d3;
+  -ms-box-shadow: 0px 0px 4px #d3d3d3;
+  -o-box-shadow: 0px 0px 4px #d3d3d3;
+  box-shadow: 0px 0px 4px #d3d3d3;
 }
-/* line 27, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
 .bottom_check button {
   margin: 0 auto;
 }
 
-/* line 31, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 .yo-headline2 {
   margin-top: 12px;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .addlastmoney {
   position: relative;
 }
-/* line 36, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 .addlastmoney:after {
   position: absolute;
   content: ".39";
@@ -127,32 +132,32 @@ left: calc(50% - 82.5px);
   color: #878787;
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 .icon-house {
   background-image: url(../svg/ico-house.svg) !important;
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 .icon-arrows-left {
   background-image: url(../svg/icon-arrows-left.svg) !important;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 .icon-arrows-right {
   background-image: url(../svg/ico-arrows-right.svg) !important;
 }
 
-/* line 57, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .icon-radio-yes {
   background-image: url(../svg/ico-radio-yes.svg) !important;
 }
 
-/* line 60, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 .icon-kuai {
   background-image: url(../images/kuai.png) !important;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 .onlineMenu {
   padding: 5px 0 !important;
   -webkit-transition: all 0.3s ease;
@@ -161,36 +166,36 @@ left: calc(50% - 82.5px);
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 66, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 .onlineMenu .onlineMenu_active {
   height: auto;
 }
-/* line 69, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .onlineMenu ul {
   overflow: hidden;
   height: 140px;
 }
-/* line 72, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .onlineMenu ul li {
   float: left;
   width: 20%;
   padding-top: 5px;
 }
-/* line 76, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .onlineMenu ul li a {
   border: 0px solid #ddd !important;
   font-size: 10px;
 }
-/* line 79, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 .onlineMenu ul li a .payicon {
   padding: 5px 0;
   text-align: center;
 }
-/* line 82, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 .onlineMenu ul li a .payicon img {
   width: 35px;
 }
-/* line 90, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .onlineMenu ul .payicon img {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -198,7 +203,7 @@ left: calc(50% - 82.5px);
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 97, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .onlineMenu ul .pay_add_active .payicon img {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -207,31 +212,31 @@ left: calc(50% - 82.5px);
   transform: rotate(180deg);
 }
 
-/* line 105, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 .PaleOrange {
   padding-left: 102px !important;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 .item-input .itemTxt {
   margin-right: 10px;
 }
 
-/* line 112, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .paytxt {
   font-size: 10px;
 }
 
-/* line 115, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 select {
   font-family: "Microsoft Yahei" !important;
 }
 
-/* line 119, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
 .bankCard .active {
   position: relative;
 }
-/* line 121, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .bankCard .active:after {
   content: "";
   position: absolute;
@@ -243,7 +248,7 @@ select {
   background-size: 20px 20px;
 }
 
-/* line 133, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 .paybankName {
   float: none !important;
   padding: 25px;
