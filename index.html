@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://www.try1024.com/wap/payment/bankPay?bankType=0 -->
+<html style="">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no,width=device-width">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <title>bankPay</title>
+    <style type="text/css">
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    </style>
+    <script src="./www.try1024.com_files/layer.m.js.下載"></script>
+    <link href="./www.try1024.com_files/share.css" rel="stylesheet" type="text/css">
+    <link href="./www.try1024.com_files/muse-ui.css" rel="stylesheet" type="text/css">
+    <link href="./www.try1024.com_files/mint-style.css" rel="stylesheet" type="text/css">
+    <link href="./www.try1024.com_files/index.css" rel="stylesheet" type="text/css">
+    <link href="./www.try1024.com_files/layer.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/screen.css" rel="stylesheet" type="text/css">
+    <script src="./www.try1024.com_files/jquery.share.min.js.下載"></script>
+    <link href="./www.try1024.com_files/app.754ea73bb9ffcef233108dc352088d01.css" rel="stylesheet">
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/myjs.js"></script>
+    <style type="text/css" title="fading circle style">
+    .circle-color-32>div::before {
+        background-color: #ccc;
+    }
+    </style>
+    <style type="text/css">
+    .mint-loadmore-top .mint-spinner-fading-circle {
+        margin-left: 45%
+    }
+    /*# sourceURL=/home/jenkins/workspace/UAT2_PATCH_gpo_mobile/SRC/gpo_mobile/src/components/memberCenter/message.vue */
+    /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2plbmtpbnMvd29ya3NwYWNlL1VBVDJfUEFUQ0hfZ3BvX21vYmlsZS9TUkMvZ3BvX21vYmlsZS9zcmMvY29tcG9uZW50cy9tZW1iZXJDZW50ZXIvbWVzc2FnZS52dWUiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0EsK0NBQ0UsZUFBaUIsQ0FDbEIiLCJmaWxlIjoibWVzc2FnZS52dWUiLCJzb3VyY2VzQ29udGVudCI6WyJcbi5taW50LWxvYWRtb3JlLXRvcCAubWludC1zcGlubmVyLWZhZGluZy1jaXJjbGUge1xuICBtYXJnaW4tbGVmdDogNDUlO1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */
+    </style>
+</head>
+
+<body style="">
+    <div id="app" style="width: 100%; height: 100%;">
+        <div class="pane">
+            <div class="yo-page-body">
+                <div class="header yo-home-nav">
+                    <div class="center">
+                        <div class="hea-menu hea-left"><a href="javascript:;"><i class="yo-icon icon-arrows-left"></i></a></div>
+                        <div class="header-text titile">
+                            <h1>快速充值</h1></div>
+                        <div class="hea-user hea-right"><a href="javascript:;"><i class="yo-icon icon-house"></i></a></div>
+                    </div>
+                </div>
+                <div id="payScroll" class="wrapper indexCenter2">
+                    <div class="tab-nav onlineMenu">
+                        <ul>
+                            <li class=""><a href="javascript:void(0)"><div class="payicon"><img src="images/pay_vs.png"></div><div class="paytxt">微信支付</div></a> <i class="yo-icon icon-kuai"></i></li>
+                            <li class=""><a href="javascript:void(0)"><div class="payicon"><img src="images/pay_gfb.png"></div><div class="paytxt">支付宝</div></a> <i class="yo-icon icon-kuai"></i></li>
+                            <li class=""><a href="javascript:void(0)"><div class="payicon"><img src="images/pay_tf.png"></div><div class="paytxt">财付通</div></a></li>
+                            <li class=""><a href="javascript:void(0)"><div class="payicon"><img src="images/pay_gdm.png"></div><div class="paytxt">京东钱包</div></a></li>
+                            <li class=""><a href="javascript:void(0)"><div class="payicon"><img src="images/pay_bd.png"></div><div class="paytxt">百度钱包</div></a></li>
+                            <li class=""><a href="javascript:void(0)"><div class="payicon"><img src="images/pay_usf.png"></div><div class="paytxt">云闪付</div></a></li>
+                            <li class=""><a href="javascript:void(0)"><div class="payicon"><img src="images/pay_zl.png"></div><div class="paytxt">银联</div></a></li>
+                            <li class=""><a href="javascript:void(0)"><div class="payicon"><img src="images/pay_gd.png"></div><div class="paytxt">京东扫码</div></a></li>
+                            <li class=""><a href="javascript:void(0)"><div class="payicon"><img src="images/pay_qq.png"></div><div class="paytxt">QQ</div></a></li>
+                            <li class="pay_add"><a href="javascript:void(0)"><div class="payicon"><img src="images/more.png"></div><div class="paytxt">更多</div></a></li>
+                            <li class=""><a href="javascript:void(0)"><div class="payicon"><img src="images/pay_vss.png"></div><div class="paytxt">微信扫码</div></a></li>
+                            <li class=""><a href="javascript:void(0)"><div class="payicon"><img src="images/pay_zls.png"></div><div class="paytxt">银联扫码</div></a></li>
+                            <li class="">
+                                <a href="javascript:void(0)">
+                                    <div class="payicon">
+                                        <img src="images/pay_vss.png">
+                                    </div>
+                                    <div class="paytxt">微信扫码</div>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="javascript:void(0)">
+                                    <div class="payicon">
+                                        <img src="images/pay_zls.png">
+                                    </div>
+                                    <div class="paytxt">银联扫码</div>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="javascript:void(0)">
+                                    <div class="payicon">
+                                        <img src="images/pay_vss.png">
+                                    </div>
+                                    <div class="paytxt">微信扫码</div>
+                                </a>
+                            </li>
+                            <li class="">
+                                <a href="javascript:void(0)">
+                                    <div class="payicon">
+                                        <img src="images/pay_zls.png">
+                                    </div>
+                                    <div class="paytxt">银联扫码</div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                        <!---->
+                    </div>
+                    <div style="background: rgb(243, 243, 243);">
+                        <div id="paymentRecharge" style="">
+                            
+                            <!---->
+                            <!---->
+                            <!---->
+                            <!---->
+                            <!---->
+                            <!---->
+                            <div class="depositMain">
+                                <div class="companyDep" style="position: relative;">
+                                    <div class="bankDepOthey">
+                                        <dl class="rechargebox">
+                                            <div>
+                                                <dd>
+                                                    <div class="item-input">
+                                                        <span class="itemTxt">
+                                                            &nbsp;&nbsp;充值金额</span>
+                                                        <div class="specialbox addlastmoney">
+                                                            <input type="tel" placeholder="1-1000000" maxlength="10" class="typeinput input-one">
+                                                        </div>
+                                                        
+                                                    </div>
+                                                    <p class="depTips PaleOrange">为了更快速到账，存款时，自动生成
+                                                            <em>0.23</em>元</p>
+                                                    <!---->
+                                                </dd>
+                                                <dd>
+                                                    <div class="item-input">
+                                                        <span class="itemTxt">&nbsp;&nbsp;申请优惠</span>
+                                                        <select class="typeselect select-one">
+                                                            <option value="1">申请</option>
+                                                            <option value="0">不申请</option>
+                                                        </select>
+                                                        <p class="depTips red">优惠
+                                                            <em>0</em>，
+                                                            <em>1</em>倍打码</p>
+                                                    </div>
+                                                </dd>
+                                            </div>
+                                            <!---->
+                                        </dl>
+                                        <dl class="paytype">
+                                            <dd>
+                                                <h6 class="banktitle">&nbsp;&nbsp;选择银行</h6> <span class="radio_span yo-arrri"><i class="yo-icon icon-arrows-right"></i></span> <span class="paybankName">中国农业银行</span></dd>
+                                        </dl>
+                                        <div pageid="live" class="wrapper2" style="margin-bottom: -44px;">
+                                            <div attr-div="depositList2" class="TipsWindown" style="display: none;">
+                                                <div class="shadeIn">
+                                                    <div class="selBankBox">
+                                                        <h1>您所使用的银行卡<a href="javascript:;">完成</a></h1>
+                                                        <dl>
+                                                            <dt><span>中国农业银行</span> <i class="yo-icon icon-radio-yes"></i></dt>
+                                                            <dt><span>北京银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>交通银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>上海银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>中国银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>中国建设银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>中国光大银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>兴业银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>中国民生银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>招商银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>中信银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>广发银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>华夏银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>中国工商银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>中国邮政储蓄银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>深圳发展银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>浦发银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>平安银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>渤海银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>东莞银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>广州银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>杭州银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>浙商银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>宁波银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>东亚银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>温州银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>晋商银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>南京银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>广州农商银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>上海农商银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>HKB银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>珠海市农村信用</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>顺德农商银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>尧都农村信用合作联社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>浙江稠州商业银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>北京农商银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>中国农村信用合作社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>支付宝</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>财付通</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>深圳农商银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>微信支付</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>重庆农村商业银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>吉林银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>福建农村信用社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>工商银行信用卡</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>招商银行信用卡</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>建设银行信用卡</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>交通银行信用卡</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>农业银行信用卡</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>中国银行信用卡</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>兴业银行信用卡</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>浦发银行信用卡</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>光大银行信用卡</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>平安银行信用卡</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>广发银行信用卡</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>上海银行信用卡</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>宁波银行信用卡</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>民生银行信用卡</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>徽商银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>江西农村信用社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>天津农商银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>泉州银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>包商银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>西安银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>桂林银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>中旅银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>河南农村信用社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>湖南省农村信用社联合社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>哈尔滨银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>保定银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>内蒙古银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>广东省农村信用社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>天津银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>唐山银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>承德银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>张家口银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>秦皇岛银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>邢台银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>廊坊银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>邯郸银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>衡水银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>大同市商业银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>长治银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>晋城银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>晋中银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>阳泉市商业银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>乌海银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>鄂尔多斯银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>贵州银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>富滇银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>曲靖市商业银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>玉溪市银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>长安银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>兰州银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>青海银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>宁夏银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>石嘴山银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>乌鲁木齐市商业银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>昆仑银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>新疆汇和银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>库尔勒市商业银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>哈密市商业银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>宁波东海银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>宁波通商银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>厦门银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>厦门国际银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>青岛银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>营口银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>甘肃银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>兰州银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>朝阳银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>盛京银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>中原银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>贵阳银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>贵州农村信用社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>湖北农商银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>锦州银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>龙江银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>江西银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>柳州银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>云南省农村信用社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>长沙银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>成都银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>日照银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>沧州银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>江苏银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>苏州银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>稠州银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>福建海峡银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>九江银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>南昌银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>烟台银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>洛阳银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>郑州银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>重庆银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>大连银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>山东省农村信用社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>安徽省农村信用社联合社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>福建省农信联社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>山东省农村信用社联合社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>湖北省农村信用社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>广西壮族自治区农村信用联社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>四川省农村信用联社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>河北省农村信用社联合社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>山西省农村信用社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>内蒙古自治区农村信用社联合社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>辽宁省农村信用社联合社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>黑龙江省农村信用社联合社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>浙江省农村信用社联合社</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>QQ</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>云闪付</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>攀枝花市商业银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>广西北部湾银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>浙江民泰商业银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>恒丰银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>辽阳银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>葫芦岛银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>昆山农商银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>绵阳市商业银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                            <dt><span>广元市贵商村镇银行</span> <i class="yo-icon icon-radio-no"></i></dt>
+                                                        </dl>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <dl class="rechargebox">
+                                            <dd>
+                                                <div class="item-input"><span class="itemTxt">&nbsp;&nbsp;汇款姓名</span>
+                                                    <div class="specialbox">
+                                                        <input type="text" class="typeinput input-one">
+                                                    </div>
+                                                </div>
+                                            </dd>
+                                            <dd>
+                                                <div class="item-input"><span class="itemTxt">&nbsp;&nbsp;汇款留言</span>
+                                                    <div class="specialbox">
+                                                        <input type="text" class="typeinput input-one">
+                                                    </div>
+                                                </div>
+                                            </dd>
+                                            <!---->
+                                        </dl>
+                                        <!--<p class="explain text1">如您使用ATM存款请填写ATM所属分行（例如“广东省佛山市工商银行豪苑支行”）</p>-->
+                                    </div>
+                                </div>
+                            </div>
+                            <!---->
+                            <!---->
+                            <!---->
+                            <!---->
+                            <!---->
+                            <div style="background: rgb(243, 243, 243);">
+                                <div class="depositMain ">
+                                    <h2 class="yo-headline2 yo-titile2">请您选择汇款银行账号</h2>
+                                    <div class="companyDep">
+                                        <!---->
+                                        <!---->
+                                        <!---->
+                                        <!---->
+                                        <dl class="bankCard">
+                                            <dd class="active">
+                                                <p class="cardName">辽阳银行</p>
+                                                <div class="cardMain">
+                                                    <span class="cardUserName">
+                                                        收款人：
+                                                        <em>张总</em>
+                                                        <span style="font-size: 14px; color: rgb(246, 134, 34); font-weight: normal; position: absolute; right: 45px;">复制</span>
+                                                    </span>
+                                                    <strong class="cardCode">748964153153135
+                                                        <span style="font-size: 14px; color: rgb(246, 134, 34); font-weight: normal; position: absolute; right: 45px;">复制</span>
+                                                    </strong>
+                                                    <span class="radio_span">
+                                                    </span>
+                                                </div>
+                                                <p class="cardBranch">开户网点：
+                                                    <em>天津</em>
+                                                </p>
+                                            </dd>
+                                        </dl>
+                                        <dl class="bankCard">
+                                            <dd class="">
+                                                <p class="cardName">辽阳银行</p>
+                                                <div class="cardMain">
+                                                    <span class="cardUserName">
+                                                        收款人：
+                                                        <em>张总</em>
+                                                        <span style="font-size: 14px; color: rgb(246, 134, 34); font-weight: normal; position: absolute; right: 45px;">复制</span>
+                                                    </span>
+                                                    <strong class="cardCode">748964153153135
+                                                        <span style="font-size: 14px; color: rgb(246, 134, 34); font-weight: normal; position: absolute; right: 45px;">复制</span>
+                                                    </strong>
+                                                </div>
+                                                <p class="cardBranch">开户网点：
+                                                    <em>天津</em>
+                                                </p>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    
+                            <div style="padding-bottom: 50px;">
+                                <div class="payitembox2 yo-pad10">
+                                    <p>
+                                        公司入款-银行汇款支付-安全</p>
+                                    <p><a href="http://www.baidu.com/" target="_self"><img src="./www.try1024.com_files/1521694339874059459.jpg" title="1521694339874059459.jpg" alt="下载.jpg"></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="TipsWindown" style="display: none;">
+                    <div class="shadeIn"></div>
+                    <div class="gameNotBox payExplainBox">
+                        <div class="gameNotice">
+                            <div class="noticeTitle">支付说明</div>
+                            <!---->
+                            <!---->
+                            <!---->
+                            <!---->
+                            <!---->
+                            <!---->
+                            <div class="noticeBut"><span class="yo-anTwo">确定</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <div class="mu-paper mu-drawer mu-paper-round mu-paper-2" style="z-index: 20141224;">
+                <div class="yo-left-menu">
+                    <h1 class="yo-title">导航</h1>
+                    <ul class="sideMenu sideMenuMaxScreen">
+                        <li><a href="javascript:;"><i class="yo-icon icon-home"></i>首页
+            </a></li>
+                        <li><a href="javascript:;"><i class="yo-icon icon-live"></i>真人视讯
+            </a></li>
+                        <li><a href="javascript:;"><i class="yo-icon icon-sports"></i>体育赛事
+            </a></li>
+                        <li><a href="javascript:;"><i class="yo-icon icon-solt"></i>电子游戏
+            </a></li>
+                        <li><a href="javascript:;"><i class="yo-icon icon-lottery"></i>彩票游戏
+            </a></li>
+                        <li><a href="javascript:;"><i class="yo-icon icon-chessGame"></i>棋牌游戏
+            </a></li>
+                        <li><a href="javascript:;"><i class="yo-icon icon-promotion2"></i>优惠活动
+            </a></li>
+                        <li><a href="javascript:;"><i class="yo-icon ico-favorite"></i>我的最爱
+            </a></li>
+                        <li><a href="javascript:;"><i class="yo-icon ico-browse"></i>最近浏览
+            </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mu-paper mu-drawer mu-paper-round mu-paper-2 right" style="z-index: 20141226;">
+                <div class="yo-right-menu">
+                    <div class="sideUser">
+                        <div class="isLogin">
+                            <!---->
+                            <div class="touxiang tx2"><img src="./www.try1024.com_files/132">
+                                <!---->
+                            </div>
+                            <div class="info">
+                                <p class="info-t">⁶⁶⁶₆₆₆666</p>
+                                <!---->
+                                <p><i class="yo-icon icon-balance"></i><span>131763.72</span><i class="yo-icon icon-f5Account" style="margin-left: 8px;"></i></p>
+                            </div>
+                        </div>
+                        <div class="rightout">
+                            <!---->
+                            <!---->
+                            <!----><a href="javascript:;" class="right-bt-tc">退出</a></div>
+                    </div>
+                    <ul class="sideMenu rightMenu">
+                        <li><a href="javascript:;"><i class="yo-icon icon-myAccount"></i>我的账户</a></li>
+                        <li><a href="javascript:;"><i class="yo-icon icon-transaction"></i>交易记录</a></li>
+                        <li><a href="javascript:;"><i class="yo-icon icon-online"></i>线上取款</a></li>
+                        <li><a href="javascript:;"><i class="yo-icon icon-pay"></i>快速充值</a></li>
+                        <li><a href="javascript:;"><i class="yo-icon icon-newMessage"></i>最新消息</a></li>
+                        <li><a href="javascript:;"><i class="yo-icon icon-notice"></i>游戏公告</a></li>
+                        <li><a href="http://www.baidu.com/"><i class="yo-icon icon-service2"></i>在线客服</a></li>
+                        <li><a href="javascript:;"><i class="yo-icon icon-share2"></i>分享好友</a></li>
+                        <li><a href="javascript:;"><i class="yo-icon icon-gameclient"></i>游戏客户端</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="yo-pad10 bottom_check">
+        <button type="button" class="yo-anOne button">确定</button>
+    </div>
+</body>
+
+</html>

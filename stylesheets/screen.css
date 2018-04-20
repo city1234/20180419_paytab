@@ -1,0 +1,244 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/*
+*********useage*********
+@include POS(475px,75px);
+@include css3(transition,all 1s ease);
+@include css3(box-shadow,0px 0px 14px #ffffff);
+@include css3(border-radius,20px);
+border: 2px solid #6d4b00;
+left: calc(50% - 82.5px);
+@include linear-gradient(#db3542, #bc2741);
+@include range-width-in(0,0){}
+
+*********tableuseage*********
+.tablestyle{
+    table{
+        margin: 0 auto;
+        border-collapse: separate;
+        border-spacing: 2px!important;
+        font-size: 16px;
+        line-height:1.5;
+    }
+    table tr td{
+        text-align: center;
+        padding: 5px;
+    }
+    table tr:nth-child(odd) {
+          background-color: rgba(76, 46, 0, 0.17);
+        }
+        span{
+            @include midtext();
+            font-size: 23px;
+        }
+}
+*/
+/*
+*********animation*********
+@include css3(transition,all 1s ease);
+@include css3(animation,opacitylight 2s infinite linear);
+@include keyframes(opacitylight) {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+*/
+/*
+@media screen and (min-width: 0px) and (max-width:640px) {}
+@media screen and (min-width: 641px) and (max-width:1200px) {}
+@media screen and (min-width: 1201px) and (max-width:2000px) {}
+*/
+/*zindex*/
+/*linear-gradient*/
+/*midtext*/
+/*stext*/
+/*specify*/
+/*keyframes*/
+/*Responsive*/
+/*radius*/
+/*boxshadow*/
+/*POS*/
+/*clearfix*/
+/*changebg*/
+/*gridbox*/
+/* line 9, ../sass/screen.scss */
+.gridbox li {
+  height: 100px;
+  float: left;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  width: 16%;
+  background: #000;
+}
+/* line 235, ../sass/mixin.scss */
+.gridbox li:nth-child(5n) {
+  margin-right: 0;
+}
+/* line 13, ../sass/screen.scss */
+.gridbox li img {
+  width: 100%;
+}
+
+/* line 18, ../sass/screen.scss */
+.paytype {
+  margin: 10px 0;
+}
+
+/* line 21, ../sass/screen.scss */
+.bottom_check {
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: #ececec;
+}
+/* line 27, ../sass/screen.scss */
+.bottom_check button {
+  margin: 0 auto;
+}
+
+/* line 31, ../sass/screen.scss */
+.yo-headline2 {
+  margin-top: 12px;
+}
+
+/* line 34, ../sass/screen.scss */
+.addlastmoney {
+  position: relative;
+}
+/* line 36, ../sass/screen.scss */
+.addlastmoney:after {
+  position: absolute;
+  content: ".39";
+  right: 0;
+  top: 0;
+  height: 100%;
+  line-height: 34px;
+  background: #d3d3d3;
+  padding: 0 10px;
+  color: #878787;
+}
+
+/* line 48, ../sass/screen.scss */
+.icon-house {
+  background-image: url(../svg/ico-house.svg) !important;
+}
+
+/* line 51, ../sass/screen.scss */
+.icon-arrows-left {
+  background-image: url(../svg/icon-arrows-left.svg) !important;
+}
+
+/* line 54, ../sass/screen.scss */
+.icon-arrows-right {
+  background-image: url(../svg/ico-arrows-right.svg) !important;
+}
+
+/* line 57, ../sass/screen.scss */
+.icon-radio-yes {
+  background-image: url(../svg/ico-radio-yes.svg) !important;
+}
+
+/* line 60, ../sass/screen.scss */
+.icon-kuai {
+  background-image: url(../images/kuai.png) !important;
+}
+
+/* line 63, ../sass/screen.scss */
+.onlineMenu {
+  padding: 5px 0 !important;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 66, ../sass/screen.scss */
+.onlineMenu .onlineMenu_active {
+  height: auto;
+}
+/* line 69, ../sass/screen.scss */
+.onlineMenu ul {
+  overflow: hidden;
+  height: 140px;
+}
+/* line 72, ../sass/screen.scss */
+.onlineMenu ul li {
+  float: left;
+  width: 20%;
+  padding-top: 5px;
+}
+/* line 76, ../sass/screen.scss */
+.onlineMenu ul li a {
+  border: 0px solid #ddd !important;
+  font-size: 10px;
+}
+/* line 79, ../sass/screen.scss */
+.onlineMenu ul li a .payicon {
+  padding: 5px 0;
+  text-align: center;
+}
+/* line 82, ../sass/screen.scss */
+.onlineMenu ul li a .payicon img {
+  width: 35px;
+}
+/* line 90, ../sass/screen.scss */
+.onlineMenu ul .payicon img {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 97, ../sass/screen.scss */
+.onlineMenu ul .pay_add_active .payicon img {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/* line 104, ../sass/screen.scss */
+.depTips {
+  padding-left: 102px !important;
+}
+
+/* line 108, ../sass/screen.scss */
+.item-input .itemTxt {
+  margin-right: 10px;
+}
+
+/* line 111, ../sass/screen.scss */
+.paytxt {
+  font-size: 10px;
+}
+
+/* line 114, ../sass/screen.scss */
+select {
+  font-family: "Microsoft Yahei" !important;
+}
+
+/* line 118, ../sass/screen.scss */
+.bankCard .active {
+  position: relative;
+}
+/* line 120, ../sass/screen.scss */
+.bankCard .active:after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 0;
+  top: 0;
+  background-image: url(../images/check.png);
+  background-size: 20px 20px;
+}
